@@ -1,33 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
+
 <head>
-  <title>메이플스토리 아크메이지(썬,콜) 육성기</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="js/page.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="icon" sizes="192x192" href="assets/maplestory.png">
+  <link rel="apple-touch-icon" href="assets/maplestory.png">
+  <link rel="apple-touch-startup-image" href="assets/maplestory.png">
+
+  <title>메이플스토리 블로그: 썬콜 육성기</title>
 </head>
 
-<body id="target">
-  <h1><a href="index.html">메이플스토리 아크메이지(썬,콜) 육성기</a></h1>
-
-  <div id="control">
-    <input type="button" value="야간모드" onclick="
-      nightDayHandler(this);
-    ">
-  </div>
-
-  <div id="grid">
-    <ul>
-      <script>
-        records1();
-      </script>
-    </ul>
-
-    <ol>
-      <h2>관련 페이지</h2>
-      <li><a href="http://maplestory.nexon.com/MapleStory/Page/Gnx.aspx?URL=Home/index">메이플스토리 공식사이트</a></li>
-      <li><a href="https://namu.wiki/w/%EC%95%84%ED%81%AC%EB%A9%94%EC%9D%B4%EC%A7%80(%EC%8D%AC%2C%EC%BD%9C)">아크메이지(썬,콜) 이란?</a></li>
-    </ol>
-  </div>
+<body>
+  <div id="app"></div>
+  <script src="src/index.js" charset="utf-8"></script>
 </body>
+
 </html>

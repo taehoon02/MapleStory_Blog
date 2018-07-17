@@ -1,0 +1,17 @@
+{
+  "name": "maplestory-blog",
+  "version": "1.0.0",
+  "description": "메이플스토리 썬콜 육성기",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taehoon02/maplestory-blog.git"
+  },
+  "author": "Taehoon <kth020315@naver.com>",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/taehoon02/maplestory-blog/issues"
+  },
+  "homepage": "https://github.com/taehoon02/maplestory-blog#readme"
+}

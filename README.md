@@ -1,2 +1,14 @@
-# 메이플스토리 아크메이지(썬,콜) 육성기
-이 블로그페이지는 웹개발을 "배우기위한" 목적으로 작성되었습니다. 온라인게임인 메이플스토리를 플레이하면서 아크메이지(썬,콜)의 육성기를 시기별로 작성하였습니다. 첫 시작은 2018년 1월 15일 현재 필자의 캐릭터 모습을 기준으로 합니다.
+# 메이플스토리 썬콜 육성기
+
+정말 쓸모없는 짓이다.
+
+## Installation
+
+```bash
+$ git clone https://github.com/taehoon02/maplestory-blog.git
+$ cd maplestory-blog && yarn install && yarn start
+```
+
+## License
+
+[MIT License](LICENSE)
