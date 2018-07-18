@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "메이플스토리 썬콜 육성기",
   "main": "index.html",
+  "scripts": {
+    "test": "yarn run lint && yarn run build",
+    "lint": "standard --plugin html '**/*.{js,vue}'",
+    "build": "parcel build index.html --no-minify",
+    "start": "parcel index.html --open"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/taehoon02/maplestory-blog.git"
@@ -13,5 +19,25 @@
   "bugs": {
     "url": "https://github.com/taehoon02/maplestory-blog/issues"
   },
-  "homepage": "https://github.com/taehoon02/maplestory-blog#readme"
+  "homepage": "https://github.com/taehoon02/maplestory-blog#readme",
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "font-awesome": "^4.7.0",
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-router": "^3.0.1",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint-plugin-html": "^4.0.5",
+    "node-sass": "^4.9.2",
+    "parcel-bundler": "^1.9.7",
+    "pug": "^2.0.3",
+    "standard": "^11.0.1",
+    "vue-template-compiler": "^2.5.16"
+  }
 }
