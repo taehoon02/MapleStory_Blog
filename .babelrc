@@ -1,3 +1,6 @@
 {
-  "presets": ["evn", "stage-2"]
+  "presets": [
+    "env",
+    "stage-2"
+  ]
 }
