@@ -26,7 +26,16 @@ export default [
       },
       {
         date: "2018년 7월 24일",
-        description: "199렙이다! 드디어 테라버닝의 끝이 보이기 시작했어ㅠㅠ"
+        description: "199렙이다! 드디어 테라버닝의 끝이 보이기 시작했어ㅠㅠ",
+        img: "https://i.imgur.com/XrGIh27.png"
+      },
+      {
+        date: "2018년 7월 25일",
+        description: "200렙! 테라버닝이 드디어 끝났습니다ㅜㅜ"
+      },
+      {
+        date: "2018년 7월 26일",
+        description: "5차전직을 하고 소멸의 여로 퀘스트를 완료했네요 :D"
       }
     ]
   }
